@@ -36,6 +36,7 @@ We can now add the following to our composer.json file for the site we are worki
     ]
 ```
 I am using Trellis to deploy my wordpress sites, so I have added the GitHub credentials to the site vault. [Composer HTTP Basic Authentication](https://roots.io/trellis/docs/composer-http-basic-authentication/)
+This is not my GitHub username and password; it is a token with read-only permissions. You can use the `oauth2` username and the `{token}` as the password. 
 
 ## ENV Variables
 If you are trying to replicate this for your own org, you can set up your own org and clone the ydtb-wp.github.io locally, change the name, and then push it into your own org. 
